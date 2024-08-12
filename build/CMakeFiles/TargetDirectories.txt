@@ -1,8 +1,0 @@
-C:/Users/132ki/Desktop/Vs/build/CMakeFiles/jlto.dir
-C:/Users/132ki/Desktop/Vs/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/132ki/Desktop/Vs/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/132ki/Desktop/Vs/build/external/glfw/CMakeFiles/ALL_BUILD.dir
-C:/Users/132ki/Desktop/Vs/build/external/glfw/src/CMakeFiles/glfw.dir
-C:/Users/132ki/Desktop/Vs/build/external/glfw/src/CMakeFiles/update_mappings.dir
-C:/Users/132ki/Desktop/Vs/build/external/glad/CMakeFiles/glad.dir
-C:/Users/132ki/Desktop/Vs/build/external/glad/CMakeFiles/ALL_BUILD.dir

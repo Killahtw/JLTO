@@ -44,7 +44,7 @@ int main() {
 			ke_color += 0.001;
 		}
 	}
-	glfwTerminate();
+	glfwTerminate(); // Завершение glfw
 }
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)

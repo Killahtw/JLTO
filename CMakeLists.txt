@@ -6,6 +6,8 @@ project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME} 
 src/main.cpp
+src/sql/sqlite3.h
+src/sql/sqlite3.c
 )
 
 

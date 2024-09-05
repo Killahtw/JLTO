@@ -7,7 +7,7 @@
 #include <windows.h>
 
 //sql
-#include <sqlite3.h> 
+#include "sql/sqlite3.h" 
 #include <conio.h> // _getch()
 
 using std::cout; using std::cin; using std::endl, std::cerr;

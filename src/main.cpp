@@ -16,6 +16,7 @@ int main() {
 	
 	//Erys(); //Prod
 
+<<<<<<< Updated upstream
 	glfwInit(); // Команда инициализации
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4); // Senior digit (1 argument)
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6); // Younger digit (1 argumment)
@@ -25,6 +26,15 @@ int main() {
 	 
 	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "jlto", NULL, NULL);
 	glfwMakeContextCurrent(window);
+=======
+    SetConsoleOutputCP(CP_UTF8); //ru-encoding for console
+    sqlite3* db;
+    int rc = sqlite3_open("F:/Feed the Machine/cpp/JLTO/src/sql/storyline.db", &db);
+    if (rc) {
+        cerr << "Can't open database: " << sqlite3_errmsg(db) << endl;
+        return rc;
+    }
+>>>>>>> Stashed changes
 
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
 		cout << "GLAD not initialized" << endl;
